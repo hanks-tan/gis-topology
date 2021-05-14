@@ -1,0 +1,29 @@
+{
+  "name": "gis-topology",
+  "version": "0.0.1",
+  "description": "前端gis拓扑分析库",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "watch": "mocha --watch test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanks-tan/gis-topology.git"
+  },
+  "keywords": [
+    "gis",
+    "topology",
+    "geometry"
+  ],
+  "author": "hanks-tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanks-tan/gis-topology/issues"
+  },
+  "homepage": "https://github.com/hanks-tan/gis-topology#readme",
+  "dependencies": {
+    "mocha": "^8.4.0",
+    "ngeohash": "^0.6.3"
+  }
+}
