@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
+vscode
+mochawesome-report
 /dist
-
 
 # local env files
 .env.local
