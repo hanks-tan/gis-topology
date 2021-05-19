@@ -1,8 +1,8 @@
-var assert = require('assert')
-var gtl = require('../index')
+import assert from 'assert'
+import utils from '../lib/utils.js'
 
 describe('isEqualCoord函数', function() {
-  var isEqualCoord = gtl.utils.isEqualCoord
+  var isEqualCoord = utils.isEqualCoord
   it('不相等测试', function() {
     let coord1 = [1, 1]
     let coord2 = [1, 2]
@@ -30,7 +30,7 @@ describe('isEqualCoord函数', function() {
 })
 
 describe('compareCoord函数', function() {
-  var compareCoord = gtl.utils.compareCoord
+  var compareCoord = utils.compareCoord
   it('容差值测试', function() {
     let coord1 = [1.1, 1.2]
     let coord2 = [1.1, 1.1] 

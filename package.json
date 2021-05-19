@@ -4,9 +4,11 @@
   "description": "前端gis拓扑分析库",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --reporter mochawesome",
+    "test": "mocha --recursive",
+    "test-rep": "mocha --recursive --reporter mochawesome",
     "watch": "mocha --watch test"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hanks-tan/gis-topology.git"
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/hanks-tan/gis-topology#readme",
   "dependencies": {
     "chai": "^4.3.4",
+    "lodash": "^4.17.21",
     "mocha": "^8.4.0",
     "mochawesome": "^6.2.2",
     "ngeohash": "^0.6.3",

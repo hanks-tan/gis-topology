@@ -1,7 +1,9 @@
-var utils = require('./lib/utils')
-var ol = require('./lib/ol/index')
+import ol from './lib/ol/index.js'
+import relation from './lib/relation/index.js'
+import utils from './lib/utils.js'
 
-module.exports = {
-  utils,
-  ol
+export default {
+  ol,
+  relation,
+  utils
 }
