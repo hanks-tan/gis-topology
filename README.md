@@ -2,38 +2,31 @@ gis-topology
 
 这是一个gis前端的空间拓扑分析库
 
+# 安装使用
+## 安装
+
+```cmd
+npm i gis-topology
+```
+## 使用
+
+```cmd
+import gt from 'gis-topology'
+```
 # 功能
 
 ## utils模块
 
 ### 1、坐标比对方法
 
-  1) isEqualCoord
+  1) isEqualCoord 
+  判断是否是相同的坐标
 
-  2) compareCoord
+  2) compareCoord 
+  对比两个坐标，返回一个布尔值。方法接受一个容差值，当两个坐标直接差距小于容差，则返回真；否则返回假
 
-  3) coordsIsEqualGeoHash
-
-# 运行测试
-## 处理ol
-
-由于ol是采用的是esm语法导入导出，不能在node中直接导入。
-根据node新版本功能，按以下方法解决，将node知道模块使用的是esm语法。
-1、进入node_modules/ol目录,修改package.json文件
-2、在顶级属性中添加,"type": "module"
-修改前
-```json
-{
-  ...
-  "version": "6.5.0"
-}
-```
-
-修改后
-```json
-{
-  ...
-  "version": "6.5.0",
-  "type": "module",
-}
-```
+  3) coordsIsEqualGeoHash 
+  判断两对坐标是否具有相同的geohash编码
+  
+  4) coordsIsEqualGeoHash
+  判断两组坐标是否完全相等
