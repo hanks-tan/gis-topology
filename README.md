@@ -19,14 +19,18 @@ import gt from 'gis-topology'
 
 ### 1、坐标比对方法
 
-  1) isEqualCoord 
+  1) isEqualCoord   
   判断是否是相同的坐标
 
-  2) compareCoord 
+  2) compareCoord  
   对比两个坐标，返回一个布尔值。方法接受一个容差值，当两个坐标直接差距小于容差，则返回真；否则返回假
 
-  3) coordsIsEqualGeoHash 
+  3) coordsIsEqualGeoHash  
   判断两对坐标是否具有相同的geohash编码
   
-  4) coordsIsEqualGeoHash
+  4) coordsIsEqualGeoHash 
   判断两组坐标是否完全相等
+
+## relation模块
+  1) isIntersect  
+  判断两个线是否相交
