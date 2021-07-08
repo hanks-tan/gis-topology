@@ -2,6 +2,7 @@
 node_modules
 vscode
 mochawesome-report
+.VSCodeCounter
 /dist
 
 # local env files

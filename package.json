@@ -25,11 +25,13 @@
   },
   "homepage": "https://github.com/hanks-tan/gis-topology#readme",
   "dependencies": {
-    "chai": "^4.3.4",
     "lodash": "^4.17.21",
-    "mocha": "^8.4.0",
-    "mochawesome": "^6.2.2",
     "ngeohash": "^0.6.3",
     "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2"
   }
 }
